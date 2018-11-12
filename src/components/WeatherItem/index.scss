@@ -1,0 +1,38 @@
+.weather-item {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0 10%;
+
+  &--Snow {
+    background-color: #ECF6F9;
+  }
+  &--Clouds {
+    background-color: #F6FCFF;
+  }
+  &--Clear {
+    background-color: #FFF8DF;
+  }
+
+  &-date {
+
+    &-month {
+      line-height: 15px;
+      display: flex;
+
+      span {
+        font-size: 13px;
+      }
+    }
+  }
+
+  &-value {
+    display: flex;
+    align-items: center;
+
+    &-temp {
+      margin-right: 5px;
+    }
+  }
+}

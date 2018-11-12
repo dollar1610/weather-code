@@ -1,0 +1,16 @@
+.App {
+  .nav-tabs {
+    border-bottom: none;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+    a {
+      border: none;
+    }
+    .active {
+      color: #E4E8E8 !important;
+      background-color: #929D9E !important;
+      border-radius: 20px;
+    }
+  }
+}
